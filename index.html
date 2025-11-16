@@ -5,7 +5,100 @@
     <meta charset="utf-8"/>
 </head>
 <body>
+    <header>
+       <h1>Välkommen till BurgerOnline</h1>
+    </header>
+    <nav><h3> Select burger </h3></nav>
+    <main>
+        <section>
+            <p> This is where you execute burger selection</p>
+            <div style="display: inline-block">
+                <h4> The Chicken burger </h4>
+                <img src="/img/burgers-grand-chicken-sandwich.png" style="width: 200px">
+                <ul>
+                    <li>750 kCal</li>
+                    <li>Contains lactose</li>
+                    <li>Contains gluten</li>
+                </ul>
+            </div>
+            <div style="display: inline-block">
+                <h4> Halloumi Burger </h4>
+                <img src="/img/product_gdl-umami-halloumi12.png" style="width: 200px">
+                <ul>
+                    <li>600 kCal</li>
+                    <li>Contains lactose</li>
+                    <li>Contains gluten</li>
+                </ul>
+            </div>
+            <div style="display: inline-block">
+                <h4> The Original Burger </h4>
+                <img src="/img/69232_c4_unicornburger_singel_int_hemsida_1920x1787px_se.png" style="width: 200px">
+                <ul>
+                    <li>650 kCal</li>
+                    <li>Contains lactose</li>
+                    <li>Contains gluten</li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <h3> Customer information </h3>
+            <p>This is where you provide neccessary information</p>
+        </section>
+        <section id="contact">
+            <form>
+                <h4>Delivery information:</h4>
+                <p>
+                    <label for="Full name">Full name</label><br>
+                    <input type = "text" id="Full name" name="fn" required="required" placeholder="First-and Last name">
+                </p>
+                <p>
+                    <label for="E-mail">E-mail</label><br>
+                    <input type = "email" id="E-mail" name="fn" required="required" placeholder="E-mail address">
+                </p>
+                <p>
+                    <label for="Street Adress">Street</label><br>
+                    <input type = "text" id="Street Adress" name="fn" required="required" placeholder="Street name">
+                </p>
+                <p>
+                    <label for="House number">House</label><br>
+                    <input type = "number" id="House number" name="fn" required="required" placeholder="House number">
+                </p>
+                <p>
+                    <label for="payment options">Payment options</label><br>
+                    <select id="payment options" name="rcp">
+                        <option selected="selected">Credit card</option>
+                        <option>Klarna</option>
+                        <option>Pay pal</option>
+                        <option>Swish</option>
+                        <option>Cash</option>
+                    </select>
+                </p>
+                <p>
+                    <label>Gender</label><br>
 
+                    <input type ="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label><br>
+
+                    <input type ="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label><br>
+
+                    <input type ="radio" id="non-binary" name="gender" value="bon-binary">
+                    <label for="non-binary">Non-binary</label><br>
+
+                    <input type ="radio" id="undisclosed" name="gender" value="undisclosed">
+                    <label for="undisclosed">Undisclosed</label><br>
+                </p>
+
+                <button type="submit">
+                    <img src="/img/Green_check.png" style="width: 20px">
+                     Send info
+                </button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        End notes
+    </footer>
 </body>
 </html>
 
