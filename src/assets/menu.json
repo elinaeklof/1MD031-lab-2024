@@ -1,21 +1,21 @@
 [{
-    "name": "Veggie Bliss", 
-    "kCal": 500, 
-    "url": "https://images-bonnier.imgix.net/files/ifo/production/20220412084608/Kødfri-burger-1.jpg?auto=compress,format&w=1024%201024w",
-    "lactose": false, 
+    "name": "The Chicken burger", 
+    "kCal": 750, 
+    "url": "img/burgers-grand-chicken-sandwich.png",
+    "lactose": true, 
     "gluten": false
 },
 {
-    "name": "Veggie Bliss", 
-    "kCal": 500, 
-    "url": "https://images-bonnier.imgix.net/files/ifo/production/20220412084608/Kødfri-burger-1.jpg?auto=compress,format&w=1024%201024w",
-    "lactose": false, 
-    "gluten": false
+    "name": "Halloumi Burger", 
+    "kCal": 600, 
+    "url": "/img/product_gdl-umami-halloumi12.png",
+    "lactose": true, 
+    "gluten": true
 },
 {
-    "name": "Veggie Bliss", 
+    "name": "The Original Burger", 
     "kCal": 500, 
-    "url": "https://images-bonnier.imgix.net/files/ifo/production/20220412084608/Kødfri-burger-1.jpg?auto=compress,format&w=1024%201024w",
+    "url": "/img/69232_c4_unicornburger_singel_int_hemsida_1920x1787px_se.png",
     "lactose": false, 
-    "gluten": false
+    "gluten": true
 }]
